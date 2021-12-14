@@ -24,7 +24,7 @@ export class PokeapiComponent implements OnInit {
       this.pokemons = res.results;
       // console.log(this.pokemons);
       //mostrando la imagen de cada pokémon desde el sprite.front_default
-      this.pokemons.forEach((res: { url: { split: (arg0: string) => string; }; img: string; }) => {
+      this.pokemons.forEach((res: any) => {
         res.img = res.url.split('/')[6];
         res.img = res.img.split('.')[0];
         res.img = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${res.img}.svg`;
