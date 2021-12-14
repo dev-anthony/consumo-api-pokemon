@@ -1,0 +1,15 @@
+.card-img-top {
+    width: 80%;
+    height: 20vh;
+    /* object-fit: cover; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 3px;
+    /* padding: 4px; */
+}

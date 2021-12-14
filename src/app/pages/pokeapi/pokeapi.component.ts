@@ -11,6 +11,7 @@ export class PokeapiComponent implements OnInit {
 
   pokemons: Pokemons | any;
   img: string;
+  titulo: string = 'PokeAPI';
  
 
   constructor( private pokeapiService: PokeapiService  ) { }
