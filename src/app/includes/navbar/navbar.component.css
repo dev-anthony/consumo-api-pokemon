@@ -1,0 +1,10 @@
+
+:root {
+    --primary-color: 	#FF0000;
+    --secundary-color: #FFD700;
+}
+
+.bg-red {
+    background-color: darkred !important;
+    color: var(--secundary-color);
+}
